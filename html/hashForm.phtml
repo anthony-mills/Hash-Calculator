@@ -1,0 +1,35 @@
+<strong>Create New Hash</strong>
+<form method="POST" id="createHash">
+	<table>
+		<tr>	
+			<td class="calcHeading">
+				Text to hash: 
+			</td>
+
+			<td>
+				<input type="text" name="hash_string" class="required">
+			</td>
+
+			<td class="calcError"></td>
+		</tr>
+
+		<tr>
+			<td class="calcHeading">
+				Hash type: 
+			</td>
+
+			<td>
+				<select name="hash_type">
+					<option>SHA1</option>
+					<option>MD5</option>
+				</select>
+			</td>
+
+			<td class="calcError"></td>
+		</tr>
+	</table>
+
+	<div align="center">
+		<input type="submit" value="Create hash">
+	</div>
+</form>

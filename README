@@ -1,0 +1,8 @@
+Hash Calculator plugin for Wordpress
+Author: Anthony Mills
+URL: http://www.development-cycle.com
+Version: 0.1
+Date: 22nd July 2011
+
+Small, simple plugin allowing a SHA1 / MD5 hash calculator into a Wordpress page or post. 
+To use simply the shortcode [hash_calculator] where you would like the calculator to be Displayed.
